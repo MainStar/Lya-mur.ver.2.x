@@ -113,14 +113,14 @@
 	box-shadow: 0 0 5px grey;
 }
 .services_in_top{
-	width: 90%;
+	width: 95%;
 	height: 100%;
-	margin-left: 5.5%;
+	margin-left: 3%;
 }
 .service_img{
 	width: 19%;
 	height: 100%;
-	margin-left: 0.5%;
+	/*margin-left: 0.5%;*/
 	display: inline-block;
 	overflow: hidden;
 }
@@ -129,8 +129,8 @@
 	display: block;
 }*/
 .service_img > a > img{
-	width: 30%;
-	height: 60%;
+	width: 25%;
+	height: 50%;
 	margin-left: 30%;
 	margin-top: 5%;
 }
