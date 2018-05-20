@@ -53,7 +53,8 @@
 	display: block;
 	color: white;
 	text-decoration: none;
-	font: 104% sans-serif;	
+	font: 104% sans-serif;
+	margin-top: 2%;
 }
 /**************************************/
 /* ********************************** */
@@ -234,7 +235,7 @@
 	width: 30%;
 	height: 10%;
 	float: right;
-	margin-right: -7%;
+	margin-right: -5%;
 	margin-top: 1.5%;
 	font: 75% sans-serif;
 }
