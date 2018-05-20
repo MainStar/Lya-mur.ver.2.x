@@ -66,6 +66,14 @@
 	width: 100%;
 	height: 100%;
 }
+.service_info{
+	width: 90%;
+	height: 50%;
+	margin-top:10%;
+	margin-left: 6%;
+	color: black;
+	text-align: left;
+}
 .button_services{
 	width: 100%;
 	height: 5%;

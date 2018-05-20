@@ -25,7 +25,7 @@
 	float: right;
 	width: 66%;
 	margin-right: 1%;
-	height: 84%;
+	height: 95%;
 	box-shadow: 0 0 7px grey;
 	/*border: 1px solid grey;*/
 }
@@ -103,19 +103,51 @@
 }
 
 /* *********************************** */
+/* Конфигурация блока услуг в СИНЕЙ ПОЛОСЕ */
 .services{
 	float: left;
 	margin-top: 0.2%;
-	width: 100%;
-	height: 3%;
+	width: 68.8%;
+	height: 4%;
 	background: #0467FB;
 	box-shadow: 0 0 5px grey;
+}
+.services_in_top{
+	width: 90%;
+	height: 100%;
+	margin-left: 5.5%;
+}
+.service_img{
+	width: 19%;
+	height: 100%;
+	margin-left: 0.5%;
+	display: inline-block;
+	overflow: hidden;
+}
+/*.service_img > a{
+	width: 100%;
+	display: block;
+}*/
+.service_img > a > img{
+	width: 30%;
+	height: 60%;
+	margin-left: 30%;
+	margin-top: 5%;
+}
+.service_img > a > img:hover{
+	/*background: #08298A;*/
+}
+.service_img_info{
+	color: white;
+	font: 100% sans-serif;
+}
+.service_img_info > a{
+	margin-left: 7%;
 }
 
 /* Конфигурация блока с картой, блогом и погодой */
 .block_blog_map_weather{
 	float: right;
-	/*left: 71%;*/
 	margin-right: 0.1%;
 	top: 30.5%;
 	margin-top: 0.2%;
@@ -125,36 +157,34 @@
 /* *********************************************** */
 /* *********** Отрисовка блока БЛОГА   ******* */
 .block_blog{
-	/*position: fixed;*/
 	overflow-y: auto;
 	overflow-x: hidden;
 	float: right;
 	width: 100%;
 	height: 55%;
 	box-shadow: 0 0 10px grey;
-	/*border: 0.2px solid grey;*/
 }
 .block_name_block{
 	width: 100%;
-	height: 3%;
+	height: 10.5%;
 	background: #0467FB;
+	font-size: 170%;
 	border-top: 0.2px solid white;
 	border-bottom: 0.2px solid white;
 }
 .block_name_block > a{
 	text-decoration: none;
-	height: 100%;
 	color: white;
 }
 .block_name_block > a > h4{
-	margin-top: 0.5%;
+	margin-top: 6%;
+	height: 100%;
 	text-align: center;
 	font: 104% sans-serif;
 }
 .blog_post{
 	width: 100%;
 	height: 24%;
-	/*margin-top: 2%;*/
 	border-bottom: 0.02px solid grey;
 }
 .blog_img{
@@ -163,7 +193,13 @@
 	height: 80%;
 	margin-top: 2%;
 	margin-left: 3%;
+	overflow: hidden;
+	border: 1px solid #F2F2F2;
 	background: black;
+}
+.blog_img > img{
+	width: 100%;
+	height: 100%;
 }
 .blog_info{
 	float: right;
@@ -171,8 +207,29 @@
 	height: 80%;
 	margin-top: 2%;
 	margin-right: 1%;
-	background: black;
+	/*background: black;*/
 }
+.summary{
+	width: 100%;
+	height: 35%;
+	font-size: 95%;
+	margin-left: 1%;
+	background: #F2F2F2;
+}
+.summary > a {
+	color: #0467FB;
+	/*margin-top: 10%;*/
+	text-decoration: none;
+}
+.info{
+	width: 100%;
+	height: 64%;
+	margin-top: 1%;
+	margin-left: 1%;
+	font: 90% sans-serif;
+	/*background: black;*/
+}
+
 .blog_link{
 	width: 30%;
 	height: 10%;
@@ -180,6 +237,8 @@
 	margin-right: -7%;
 	margin-top: 1.5%;
 	font: 75% sans-serif;
+}
+.blog_link > a{
 	color: black;
 }
 /* ************************************ */
