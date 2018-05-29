@@ -119,16 +119,12 @@
 	margin-left: 10%;
 }
 .service_img{
-	width: 19%;
+	width: 11%;
 	height: 100%;
-	/*margin-left: 0.5%;*/
+	margin-left: 3%;
 	display: inline-block;
 	overflow: hidden;
 }
-/*.service_img > a{
-	width: 100%;
-	display: block;
-}*/
 .service_img > a > img{
 	width: 25%;
 	height: 50%;
