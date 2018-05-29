@@ -137,6 +137,7 @@
 .service_img_info{
 	color: white;
 	font: 100% sans-serif;
+	width:100%;
 }
 .service_img_info > a{
 	margin-left: 7%;
