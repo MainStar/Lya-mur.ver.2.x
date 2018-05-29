@@ -141,6 +141,7 @@
 }
 .service_img_info > a{
 	margin-left: 7%;
+	width:100%;
 }
 .container_blog_services{
 	width: 85%;
