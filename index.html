@@ -9,6 +9,9 @@
 	<link rel="stylesheet" type="text/css" href="styles/style.css">
 	<link rel="stylesheet" type="text/css" href="styles/services.css">
 	<link rel="stylesheet" type="text/css" href="styles/contacts.css">
+	<link rel="stylesheet" type="text/css" href="styles/footer.css">
+	<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBbEdIP3fPgSHadoxXBWCPKIQWrJWPJSGI&callback=initMap"></script>
+	<script type="text/javascript" src="scripts/loadMap.js"></script>
 	<link rel="icon" type="image/png" href="images/icons/favicon96.png">
 </head> 
 <body> 
@@ -111,15 +114,15 @@
 						</div>
 					</div>
 				</div>
-				<div class="map">
+				<div class="map" id="map">
 					<div class="map_name">
 						<a href=" "><h4>Мы находимся</h4></a>
 						<div class="map_info">
 							
 						</div>
-						<div class="map_img">
+					</div>
+					<div class="map_img" id="map_img">
 							
-						</div>
 					</div>
 				</div>
 				<div class="weather">
@@ -251,7 +254,57 @@
 			</div>
 		</div>
 		<div class="footer">
-			
+			<div class="footer_pod">
+				<div class="footer_info">
+					<div class="footer_info_name">
+						<a href="">Услуги</a>
+					</div>
+					<div class="footer_info_information">
+						<p><a href=" ">Хирургия</a></p>
+						<p><a href=" ">Вакцинация</a></p>
+						<p><a href=" ">Чипирование</a></p>
+						<p><a href=" ">Ветврач на дом</a></p>
+						<p><a href=" ">Весь список услуг</a></p>
+					</div>
+				</div>
+				<div class="footer_info">
+					<div class="footer_info_name">
+						<a href="">Клиника</a>
+					</div>
+					<div class="footer_info_information">
+						<p><a href=" ">Врачи</a></p>
+						<p><a href=" ">Фотогалерея</a></p>
+					</div>
+				</div>
+				<div class="footer_info">
+					<div class="footer_info_name">
+						<a href="">Врачам</a>
+					</div>
+					<div class="footer_info_information">
+						<p><a href=" ">Практика для студентов</a></p>
+						<p><a href=" ">Врачам</a></p>
+					</div>
+				</div>
+				<div class="footer_info">
+					<div class="footer_info_name">
+						<a href="">Контакты</a>
+					</div>
+					<div class="footer_info_information">
+						<div class="footer_info_information_pod">
+							<p>Звоните:</p>
+							<p>+380 (68) 577-88-77</p>
+						</div>
+						<div class="footer_info_information_pod">
+							<p>Пишите:</p>
+							<p>veterinari_doktor@ukr.net</p>
+						</div>
+						<div class="footer_info_information_pod">
+							<p>Приезжайте:</p>
+							<p>г. Кривой Рог, Проспкт Гагарина 27</p>
+						</div>
+					</div>
+				</div>
+			</div>
 		</div>
 	</div>
 </body> 
