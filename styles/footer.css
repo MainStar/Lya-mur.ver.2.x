@@ -1,13 +1,15 @@
 .footer_pod{
+	position: relative;
 	width: 80%;
 	height: 80%;
-	padding-top: 2%;
 	margin-left: 10%
 }
 .footer_info{
 	width: 20%;
 	height: 90%;
 	display: inline-block;
+	vertical-align: middle;
+	margin-top: 2%;
 	margin-left: 4%;
 }
 .footer_info_name{
@@ -38,7 +40,6 @@
 .footer_info_information_pod{
 	width: 100%;
 	height: 27%;
-	/*background: white;*/
 	color: white;
 	font-family: "Sans-serif", "Arial";
 	font-size: 100%;
